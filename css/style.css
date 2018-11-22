@@ -129,3 +129,21 @@ header .navbar-nav li:hover a{
 .news .news-item .read-more:hover{
     margin-left: 3px;
 }
+/*news navigation*/
+.news-navigation a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 22px;
+    font-family: 'Arial-BoldMT';
+}
+.news-navigation > span{
+    color: #4d4d4d;
+    font-size: 22px;
+    padding: 0.15px;
+    display: inline-block;
+    
+}
+.news-navigation a:hover{
+    color: #000;
+    text-shadow: 0 0 1px #4d4d4d;
+}
