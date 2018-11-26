@@ -181,3 +181,50 @@ header .navbar-nav li:hover a{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+/*single-news-content start*/
+.single-news{
+    padding: 0 0 30px;
+    border-bottom: 1px dotted #9a9a9a;
+}
+.single-news .single-news-content h1, 
+.single-news .single-news-content h2, 
+.single-news .single-news-content h3, 
+.single-news .single-news-content h4, 
+.single-news .single-news-content h5, 
+.single-news .single-news-content h6{
+    font-family: 'ArialMT';
+    color: #252525;
+    letter-spacing: 1px;
+} 
+.single-news-content ul{
+    /*list-style-image: url('../img/puzzle.jpg');*/
+    list-style: none;
+    
+}
+.single-news-content ul li:before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url('../img/puzzle.jpg') no-repeat center;
+    background-size: contain;
+    margin-right: 5px;
+}
+.single-news-content blockquote{
+    background: #EFEFEF;
+    font-family: 'Arial-ItalicMT';
+    padding: 20px 20px 20px 40px;
+    max-width: 90%;
+    margin: 0 auto 15px;
+    color: #8a8a8a;
+    position: relative
+}
+.single-news-content blockquote:before{
+    content: '“';
+    font-family: 'ArialMT';
+    color: #fff;
+    font-size: 120px;
+    position: absolute;
+    top: -35px;
+    left: 5px;
+}
